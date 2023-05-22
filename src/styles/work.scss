@@ -26,9 +26,8 @@
             height: 25vmax;
         }
 
-
         .workItem {
-            overflow-y: auto;
+            overflow-y: scroll;
             height: 25vmax;
             width: 95%;
             margin: auto;
@@ -50,17 +49,16 @@
                 justify-content: center;
                 align-items: center;
 
-
                 >p {
                     letter-spacing: 3px;
                     line-height: 180%;
-                    margin: 2rem;
+                    margin: 1rem;
                 }
 
                 >a {
                     background-color: $color3;
                     padding: 0.7rem 2rem;
-                    margin: 2rem;
+                    margin: 1.5rem;
                     color: $color4;
                     transition: all 0.5s;
 
