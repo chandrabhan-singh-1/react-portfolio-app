@@ -3,7 +3,7 @@ import { animate, motion } from "framer-motion";
 import Typerwriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 
-import my from "../assets/my3.png";
+import my from "../assets/my4.png";
 
 const Home = () => {
   const clientsCount = useRef(null);
